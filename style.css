@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.dropdown{
+     padding-top: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: flex-start;
+    gap: 10%;
+}
+#upperpart{
+    background-image: url(/netfixback.jpeg);
+    height: 100vh;
+}
+.centerinfo{
+    margin-top: 10%;
+}
+/* universal part of the page along with its size of the page the page */
+.universal{
+    background-color: black;
+    height: 450px; 
+    display: flex;
+    flex-direction: column; 
+    
+}
+/* begenning of seperate bars */
+                                             /* secondpart */
+/* .secondpart h1{ */
+    #left{
+    color: white;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.leftcontainer{
+    color: white;
+    /* line-height:90%; */
+    width: 500px;
+    margin-left: 6%;
+}
+.secondpartimage{
+    margin-top: 3%;
+    margin-left: 55%;
+    position: absolute;
+}
+#img{
+    margin-left: 60%;
+    margin-top: -15%;
+   
+}
+                                        /* third part */
+/* .thirdpart h1{ */
+    #right{
+    color: white;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+.rightcontainer{
+    color: white;
+    /* line-height:90%; */
+    width: 500px;
+    margin-left: 51%;
+}
+.leftimage{
+    margin-left: 2%;
+    margin-top: 1%;
+    position: absolute;
+}
+#imageborder{
+    border: 2px solid  rgb(109, 105, 105);
+    background-color: black;
+    border-radius: 0.78em;
+    align-items: center;
+    width: 55%;
+    height: 29%;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    top: 67%;
+    padding: 2%;
+}
+#insidebox{
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+    padding-left: 10px;
+}
+                                            /* forth part */
+#img3{
+     position: relative;
+    margin-left: 55%;
+    margin-top: -18%;
+    z-index: 2;
+
+}
+#video4{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 62%;
+    height: 15%;
+    z-index: 0;
+    /* width: 45%; */
+}
+
+.universal2{
+    background-color: black;
+    height: 450px; 
+    display: grid;
+    grid-template-columns:repeat(4,auto);
+    
+}
+#newleft{
+        color: rgb(109, 105, 105);
+        padding: 10px;
+        margin-top: 6%;
+        margin-left: 10%;
+        
+}
+ .lastpart{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    flex-direction: row;
+} 
+.lastpart a{
+    color: rgb(109, 105, 105);
+    
+}
+.lastpart li{
+    list-style: none;
+    
+}
+/* fifth part */
+.leftimage2{
+    margin-right: 30%;
+    position: absolute;
+    height: auto;
+}
+
+
+.universal3{
+    background-color: black;
+    height: 800px; 
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+
+
+/* accordian css */
+.accordion{
+    margin-left: 20%;
+    width: 60%;
+}
+.accordion button{
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+.accordion-item{
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+.accordion-button::after {
+	background-image: url("/plus.png");
+    color: white;
+    
+}
